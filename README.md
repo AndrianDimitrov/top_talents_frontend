@@ -44,35 +44,9 @@ VITE_API_URL=http://localhost:8080/api
 4. Start the development server:
 ```bash
 npm run dev
-# or
-yarn dev
-```
 
-The application will be available at `http://localhost:5173`.
 
-## Project Structure
-
-```
-src/
-├── components/         # Reusable components
-│   ├── auth/          # Authentication components
-│   ├── layout/        # Layout components
-│   └── shared/        # Shared components
-├── pages/             # Page components
-│   ├── admin/         # Admin pages
-│   ├── auth/          # Authentication pages
-│   ├── matches/       # Match-related pages
-│   ├── scouts/        # Scout-related pages
-│   ├── talents/       # Talent-related pages
-│   └── teams/         # Team-related pages
-├── store/             # Redux store
-│   ├── slices/        # Redux slices
-│   └── index.ts       # Store configuration
-├── types/             # TypeScript type definitions
-├── utils/             # Utility functions
-├── App.tsx            # Main App component
-└── main.tsx           # Application entry point
-```
+The application will be available at `http://localhost:3000`.
 
 ## Available Scripts
 
@@ -81,15 +55,3 @@ src/
 - `npm run preview` - Preview production build
 - `npm run lint` - Run ESLint
 - `npm run type-check` - Run TypeScript type checking
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details. 
