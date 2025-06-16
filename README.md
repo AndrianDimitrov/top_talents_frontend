@@ -18,7 +18,7 @@ A modern React frontend application for managing football talents, scouts, teams
 ## Prerequisites
 
 - Node.js (v16 or higher)
-- npm or yarn
+- npm
 - Modern web browser
 
 ## Getting Started
@@ -26,15 +26,12 @@ A modern React frontend application for managing football talents, scouts, teams
 1. Clone the repository:
 ```bash
 git clone <repository-url>
-cd toptalents-frontend
-```
+
 
 2. Install dependencies:
 ```bash
 npm install
-# or
-yarn install
-```
+
 
 3. Create a `.env` file in the root directory and add your environment variables:
 ```env
@@ -48,31 +45,8 @@ npm run dev
 yarn dev
 ```
 
-The application will be available at `http://localhost:5173`.
+The application will be available at `http://localhost:3000`.
 
-## Project Structure
-
-```
-src/
-├── components/         # Reusable components
-│   ├── auth/          # Authentication components
-│   ├── layout/        # Layout components
-│   └── shared/        # Shared components
-├── pages/             # Page components
-│   ├── admin/         # Admin pages
-│   ├── auth/          # Authentication pages
-│   ├── matches/       # Match-related pages
-│   ├── scouts/        # Scout-related pages
-│   ├── talents/       # Talent-related pages
-│   └── teams/         # Team-related pages
-├── store/             # Redux store
-│   ├── slices/        # Redux slices
-│   └── index.ts       # Store configuration
-├── types/             # TypeScript type definitions
-├── utils/             # Utility functions
-├── App.tsx            # Main App component
-└── main.tsx           # Application entry point
-```
 
 ## Available Scripts
 
@@ -81,15 +55,3 @@ src/
 - `npm run preview` - Preview production build
 - `npm run lint` - Run ESLint
 - `npm run type-check` - Run TypeScript type checking
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details. 
